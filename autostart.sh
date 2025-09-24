@@ -34,7 +34,7 @@ do
         # Start new main.py in background
         echo "Starting new main.py..."
         ./install_requirements.sh
-        nohup python3 ~/IdleClans/IdleClansMarketPortable/main.py > ~/IdleClans/IdleClansMarketPortable/logs/main.log 2>&1 &
+        nohup venv/bin/python -m streamlit run main.py > ~/IdleClansMarketPortable/logs/streamlit.log 2>&1 &
       fi
     fi
   else
