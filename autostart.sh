@@ -16,10 +16,10 @@ do
     echo "Update available! Pulling changes..."
     echo "Pushing to stash"
     git stash push -m "temp" autostart.sh
+    git stash push -m "temp"
     git pull
-    echo "Popping stash"
-    git stash pop
-
+    echo "Clearing stash"
+    git stash clear
     if [ -f "$VERSION_FILE" ]; then
       NEW_VERSION=$(cat "$VERSION_FILE")
       if [ "$NEW_VERSION" != "$CURRENT_VERSION" ]; then
