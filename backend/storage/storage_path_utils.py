@@ -21,3 +21,15 @@ def get_cache_path():
     os.mkdir(cache_path)
     return cache_path
 
+"""
+Gets the directory containing information for a given player, created if it does not exist
+"""
+def get_or_create_directory_for_player(username):
+    base_path = get_base_path()
+    all_users_path = base_path + "players/"
+    if not os.path.isdir(all_users_path):
+        os.mkdir(all_users_path)
+    player_path = all_users_path + username + "/"
+    if not os.path.isdir(player_path):
+        os.mkdir(player_path)
+    return player_path
