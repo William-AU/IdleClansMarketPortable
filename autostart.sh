@@ -33,7 +33,8 @@ do
 
         # Start new main.py in background
         echo "Starting new main.py..."
-        nohup python3 main.py > main.log 2>&1 &
+
+        nohup python3 ~/IdleClans/IdleClansMarketPortable/main.py > ~/IdleClans/IdleClansMarketPortable/logs/main.log 2>&1 &
       fi
     fi
   else
