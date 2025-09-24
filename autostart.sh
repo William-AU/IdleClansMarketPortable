@@ -14,6 +14,7 @@ do
 
   if [ "$REMOTE_HASH" != "$LOCAL_HASH" ]; then
     echo "Update available! Pulling changes..."
+    git restore autostart.sh
     git pull
 
     if [ -f "$VERSION_FILE" ]; then
