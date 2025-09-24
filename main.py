@@ -1,4 +1,4 @@
 import streamlit as st
 
-if __name__ == '__main__':
-    print("Hello World!")
+# Main entrypoint of the app
+st.set_page_config(page_title="Main page")

@@ -1,0 +1,1968 @@
+{
+    "recipes": [
+        {
+            "input_items": {
+                "tin_ore": 1,
+                "copper_ore": 1
+            },
+            "output_item": "bronze_bar",
+            "output_amount": 1,
+            "category": "Smithing",
+            "xp": 0,
+            "time_seconds": 3
+        },
+        {
+            "input_items": {
+                "iron_ore": 1
+            },
+            "output_item": "iron_bar",
+            "output_amount": 1,
+            "category": "Smithing",
+            "xp": 0,
+            "time_seconds": 5
+        },
+        {
+            "input_items": {
+                "silver_ore": 1
+            },
+            "output_item": "silver_bar",
+            "output_amount": 1,
+            "category": "Smithing",
+            "xp": 0,
+            "time_seconds": 6
+        },
+        {
+            "input_items": {
+                "iron_ore": 2,
+                "coal_ore": 1
+            },
+            "output_item": "steel_bar",
+            "output_amount": 1,
+            "category": "Smithing",
+            "xp": 0,
+            "time_seconds": 6.5
+        },
+        {
+            "input_items": {
+                "gold_ore": 1
+            },
+            "output_item": "gold_bar",
+            "output_amount": 1,
+            "category": "Smithing",
+            "xp": 0,
+            "time_seconds": 8
+        },
+        {
+            "input_items": {
+                "platinum_ore": 3,
+                "coal_ore": 3
+            },
+            "output_item": "platinum_bar",
+            "output_amount": 1,
+            "category": "Smithing",
+            "xp": 0,
+            "time_seconds": 12
+        },
+        {
+            "input_items": {
+                "meteorite_ore": 3,
+                "coal_ore": 6
+            },
+            "output_item": "meteorite_bar",
+            "output_amount": 1,
+            "category": "Smithing",
+            "xp": 0,
+            "time_seconds": 20
+        },
+        {
+            "input_items": {
+                "diamond_ore": 3
+            },
+            "output_item": "diamond_bar",
+            "output_amount": 1,
+            "category": "Smithing",
+            "xp": 0,
+            "time_seconds": 22
+        },
+        {
+            "input_items": {
+                "titanium_ore": 3,
+                "coal_ore": 9
+            },
+            "output_item": "titanium_bar",
+            "output_amount": 1,
+            "category": "Smithing",
+            "xp": 0,
+            "time_seconds": 30
+        },
+        {
+            "input_items": {
+                "astronomical_ore": 1,
+                "coal_ore": 5000
+            },
+            "output_item": "astronomical_bar",
+            "output_amount": 1,
+            "category": "Smithing",
+            "xp": 0,
+            "time_seconds": 60
+        },
+        {
+            "input_items": {
+                "bronze_bar": 6
+            },
+            "output_item": "bronze_platebody",
+            "output_amount": 1,
+            "category": "Smithing/Bronze",
+            "xp": 0,
+            "time_seconds": 9
+        },
+        {
+            "input_items": {
+                "bronze_bar": 4
+            },
+            "output_item": "bronze_platelegs",
+            "output_amount": 1,
+            "category": "Smithing/Bronze",
+            "xp": 0,
+            "time_seconds": 9
+        },
+        {
+            "input_items": {
+                "bronze_bar": 2
+            },
+            "output_item": "bronze_helmet",
+            "output_amount": 1,
+            "category": "Smithing/Bronze",
+            "xp": 0,
+            "time_seconds": 9
+        },
+        {
+            "input_items": {
+                "bronze_bar": 4
+            },
+            "output_item": "bronze_shield",
+            "output_amount": 1,
+            "category": "Smithing/Bronze",
+            "xp": 0,
+            "time_seconds": 9
+        },
+        {
+            "input_items": {
+                "iron_bar": 6
+            },
+            "output_item": "iron_platebody",
+            "output_amount": 1,
+            "category": "Smithing/iron",
+            "xp": 0,
+            "time_seconds": 9
+        },
+        {
+            "input_items": {
+                "iron_bar": 4
+            },
+            "output_item": "iron_platelegs",
+            "output_amount": 1,
+            "category": "Smithing/iron",
+            "xp": 0,
+            "time_seconds": 9
+        },
+        {
+            "input_items": {
+                "iron_bar": 2
+            },
+            "output_item": "iron_helmet",
+            "output_amount": 1,
+            "category": "Smithing/iron",
+            "xp": 0,
+            "time_seconds": 9
+        },
+        {
+            "input_items": {
+                "iron_bar": 4
+            },
+            "output_item": "iron_shield",
+            "output_amount": 1,
+            "category": "Smithing/iron",
+            "xp": 0,
+            "time_seconds": 9
+        },
+        {
+            "input_items": {
+                "steel_bar": 6
+            },
+            "output_item": "steel_platebody",
+            "output_amount": 1,
+            "category": "Smithing/steel",
+            "xp": 0,
+            "time_seconds": 9
+        },
+        {
+            "input_items": {
+                "steel_bar": 4
+            },
+            "output_item": "steel_platelegs",
+            "output_amount": 1,
+            "category": "Smithing/steel",
+            "xp": 0,
+            "time_seconds": 9
+        },
+        {
+            "input_items": {
+                "steel_bar": 2
+            },
+            "output_item": "steel_helmet",
+            "output_amount": 1,
+            "category": "Smithing/steel",
+            "xp": 0,
+            "time_seconds": 9
+        },
+        {
+            "input_items": {
+                "steel_bar": 4
+            },
+            "output_item": "steel_shield",
+            "output_amount": 1,
+            "category": "Smithing/steel",
+            "xp": 0,
+            "time_seconds": 9
+        },
+        {
+            "input_items": {
+                "platinum_bar": 6
+            },
+            "output_item": "platinum_platebody",
+            "output_amount": 1,
+            "category": "Smithing/platinum",
+            "xp": 0,
+            "time_seconds": 9
+        },
+        {
+            "input_items": {
+                "platinum_bar": 4
+            },
+            "output_item": "platinum_platelegs",
+            "output_amount": 1,
+            "category": "Smithing/platinum",
+            "xp": 0,
+            "time_seconds": 9
+        },
+        {
+            "input_items": {
+                "platinum_bar": 2
+            },
+            "output_item": "platinum_helmet",
+            "output_amount": 1,
+            "category": "Smithing/platinum",
+            "xp": 0,
+            "time_seconds": 9
+        },
+        {
+            "input_items": {
+                "platinum_bar": 4
+            },
+            "output_item": "platinum_shield",
+            "output_amount": 1,
+            "category": "Smithing/platinum",
+            "xp": 0,
+            "time_seconds": 9
+        },
+        {
+            "input_items": {
+                "meteorite_bar": 6
+            },
+            "output_item": "meteorite_platebody",
+            "output_amount": 1,
+            "category": "Smithing/meteorite",
+            "xp": 0,
+            "time_seconds": 9
+        },
+        {
+            "input_items": {
+                "meteorite_bar": 4
+            },
+            "output_item": "meteorite_platelegs",
+            "output_amount": 1,
+            "category": "Smithing/meteorite",
+            "xp": 0,
+            "time_seconds": 9
+        },
+        {
+            "input_items": {
+                "meteorite_bar": 2
+            },
+            "output_item": "meteorite_helmet",
+            "output_amount": 1,
+            "category": "Smithing/meteorite",
+            "xp": 0,
+            "time_seconds": 9
+        },
+        {
+            "input_items": {
+                "meteorite_bar": 4
+            },
+            "output_item": "meteorite_shield",
+            "output_amount": 1,
+            "category": "Smithing/meteorite",
+            "xp": 0,
+            "time_seconds": 9
+        },
+        {
+            "input_items": {
+                "titanium_bar": 6
+            },
+            "output_item": "titanium_platebody",
+            "output_amount": 1,
+            "category": "Smithing/titanium",
+            "xp": 0,
+            "time_seconds": 9
+        },
+        {
+            "input_items": {
+                "titanium_bar": 4
+            },
+            "output_item": "titanium_platelegs",
+            "output_amount": 1,
+            "category": "Smithing/titanium",
+            "xp": 0,
+            "time_seconds": 9
+        },
+        {
+            "input_items": {
+                "titanium_bar": 2
+            },
+            "output_item": "titanium_helmet",
+            "output_amount": 1,
+            "category": "Smithing/titanium",
+            "xp": 0,
+            "time_seconds": 9
+        },
+        {
+            "input_items": {
+                "titanium_bar": 4
+            },
+            "output_item": "titanium_shield",
+            "output_amount": 1,
+            "category": "Smithing/titanium",
+            "xp": 0,
+            "time_seconds": 9
+        },
+        {
+            "input_items": {
+                "astronomical_bar": 6
+            },
+            "output_item": "astronomical_platebody",
+            "output_amount": 1,
+            "category": "Smithing/astronomical",
+            "xp": 0,
+            "time_seconds": 9
+        },
+        {
+            "input_items": {
+                "astronomical_bar": 4
+            },
+            "output_item": "astronomical_platelegs",
+            "output_amount": 1,
+            "category": "Smithing/astronomical",
+            "xp": 0,
+            "time_seconds": 9
+        },
+        {
+            "input_items": {
+                "astronomical_bar": 2
+            },
+            "output_item": "astronomical_helmet",
+            "output_amount": 1,
+            "category": "Smithing/astronomical",
+            "xp": 0,
+            "time_seconds": 9
+        },
+        {
+            "input_items": {
+                "astronomical_bar": 4
+            },
+            "output_item": "astronomical_shield",
+            "output_amount": 1,
+            "category": "Smithing/astronomical",
+            "xp": 0,
+            "time_seconds": 9
+        },
+        {
+            "input_items": {
+                "silver_bar": 2
+            },
+            "output_item": "silver_amulet",
+            "output_amount": 1,
+            "category": "Smithing/silver",
+            "xp": 0,
+            "time_seconds": 3
+        },
+        {
+            "input_items": {
+                "silver_bar": 2
+            },
+            "output_item": "silver_ring",
+            "output_amount": 1,
+            "category": "Smithing/silver",
+            "xp": 0,
+            "time_seconds": 3
+        },
+        {
+            "input_items": {
+                "silver_bar": 2
+            },
+            "output_item": "silver_bracelet",
+            "output_amount": 1,
+            "category": "Smithing/silver",
+            "xp": 0,
+            "time_seconds": 3
+        },
+        {
+            "input_items": {
+                "silver_bar": 2
+            },
+            "output_item": "silver_earrings",
+            "output_amount": 1,
+            "category": "Smithing/silver",
+            "xp": 0,
+            "time_seconds": 3
+        },
+        {
+            "input_items": {
+                "silver_bar": 1,
+                "silver_precision_symbol": 1
+            },
+            "output_item": "silver_precision_ring",
+            "output_amount": 1,
+            "category": "Smithing/silver",
+            "xp": 0,
+            "time_seconds": 0
+        },
+        {
+            "input_items": {
+                "silver_bar": 1,
+                "silver_berserker_symbol": 1
+            },
+            "output_item": "silver_berserker_ring",
+            "output_amount": 1,
+            "category": "Smithing/silver",
+            "xp": 0,
+            "time_seconds": 0
+        },
+        {
+            "input_items": {
+                "silver_bar": 1,
+                "silver_arcane_symbol": 1
+            },
+            "output_item": "silver_arcane_ring",
+            "output_amount": 1,
+            "category": "Smithing/silver",
+            "xp": 0,
+            "time_seconds": 0
+        },
+        {
+            "input_items": {
+                "silver_bar": 1,
+                "silver_marksman_symbol": 1
+            },
+            "output_item": "silver_marksman_bracelet",
+            "output_amount": 1,
+            "category": "Smithing/silver",
+            "xp": 0,
+            "time_seconds": 0
+        },
+        {
+            "input_items": {
+                "silver_bar": 1,
+                "silver_brute_symbol": 1
+            },
+            "output_item": "silver_brute_bracelet",
+            "output_amount": 1,
+            "category": "Smithing/silver",
+            "xp": 0,
+            "time_seconds": 0
+        },
+        {
+            "input_items": {
+                "silver_bar": 1,
+                "silver_sorcerer_symbol": 1
+            },
+            "output_item": "silver_sorcerer_bracelet",
+            "output_amount": 1,
+            "category": "Smithing/silver",
+            "xp": 0,
+            "time_seconds": 0
+        },
+        {
+            "input_items": {
+                "gold_bar": 2
+            },
+            "output_item": "gold_amulet",
+            "output_amount": 1,
+            "category": "Smithing/gold",
+            "xp": 0,
+            "time_seconds": 3
+        },
+        {
+            "input_items": {
+                "gold_bar": 2
+            },
+            "output_item": "gold_ring",
+            "output_amount": 1,
+            "category": "Smithing/gold",
+            "xp": 0,
+            "time_seconds": 3
+        },
+        {
+            "input_items": {
+                "gold_bar": 2
+            },
+            "output_item": "gold_bracelet",
+            "output_amount": 1,
+            "category": "Smithing/gold",
+            "xp": 0,
+            "time_seconds": 3
+        },
+        {
+            "input_items": {
+                "gold_bar": 2
+            },
+            "output_item": "gold_earrings",
+            "output_amount": 1,
+            "category": "Smithing/gold",
+            "xp": 0,
+            "time_seconds": 3
+        },
+        {
+            "input_items": {
+                "gold_bar": 1,
+                "gold_precision_symbol": 1
+            },
+            "output_item": "gold_precision_ring",
+            "output_amount": 1,
+            "category": "Smithing/gold",
+            "xp": 0,
+            "time_seconds": 0
+        },
+        {
+            "input_items": {
+                "gold_bar": 1,
+                "gold_berserker_symbol": 1
+            },
+            "output_item": "gold_berserker_ring",
+            "output_amount": 1,
+            "category": "Smithing/gold",
+            "xp": 0,
+            "time_seconds": 0
+        },
+        {
+            "input_items": {
+                "gold_bar": 1,
+                "gold_arcane_symbol": 1
+            },
+            "output_item": "gold_arcane_ring",
+            "output_amount": 1,
+            "category": "Smithing/gold",
+            "xp": 0,
+            "time_seconds": 0
+        },
+        {
+            "input_items": {
+                "gold_bar": 1,
+                "gold_marksman_symbol": 1
+            },
+            "output_item": "gold_marksman_bracelet",
+            "output_amount": 1,
+            "category": "Smithing/gold",
+            "xp": 0,
+            "time_seconds": 0
+        },
+        {
+            "input_items": {
+                "gold_bar": 1,
+                "gold_brute_symbol": 1
+            },
+            "output_item": "gold_brute_bracelet",
+            "output_amount": 1,
+            "category": "Smithing/gold",
+            "xp": 0,
+            "time_seconds": 0
+        },
+        {
+            "input_items": {
+                "gold_bar": 1,
+                "gold_sorcerer_symbol": 1
+            },
+            "output_item": "gold_sorcerer_bracelet",
+            "output_amount": 1,
+            "category": "Smithing/gold",
+            "xp": 0,
+            "time_seconds": 0
+        },
+        {
+            "input_items": {
+                "diamond_bar": 2
+            },
+            "output_item": "diamond_amulet",
+            "output_amount": 1,
+            "category": "Smithing/diamond",
+            "xp": 0,
+            "time_seconds": 3
+        },
+        {
+            "input_items": {
+                "diamond_bar": 2
+            },
+            "output_item": "diamond_ring",
+            "output_amount": 1,
+            "category": "Smithing/diamond",
+            "xp": 0,
+            "time_seconds": 3
+        },
+        {
+            "input_items": {
+                "diamond_bar": 2
+            },
+            "output_item": "diamond_bracelet",
+            "output_amount": 1,
+            "category": "Smithing/diamond",
+            "xp": 0,
+            "time_seconds": 3
+        },
+        {
+            "input_items": {
+                "diamond_bar": 2
+            },
+            "output_item": "diamond_earrings",
+            "output_amount": 1,
+            "category": "Smithing/diamond",
+            "xp": 0,
+            "time_seconds": 3
+        },
+        {
+            "input_items": {
+                "diamond_bar": 1,
+                "diamond_precision_symbol": 1
+            },
+            "output_item": "diamond_precision_ring",
+            "output_amount": 1,
+            "category": "Smithing/diamond",
+            "xp": 0,
+            "time_seconds": 0
+        },
+        {
+            "input_items": {
+                "diamond_bar": 1,
+                "diamond_berserker_symbol": 1
+            },
+            "output_item": "diamond_berserker_ring",
+            "output_amount": 1,
+            "category": "Smithing/diamond",
+            "xp": 0,
+            "time_seconds": 0
+        },
+        {
+            "input_items": {
+                "diamond_bar": 1,
+                "diamond_arcane_symbol": 1
+            },
+            "output_item": "diamond_arcane_ring",
+            "output_amount": 1,
+            "category": "Smithing/diamond",
+            "xp": 0,
+            "time_seconds": 0
+        },
+        {
+            "input_items": {
+                "diamond_bar": 1,
+                "diamond_marksman_symbol": 1
+            },
+            "output_item": "diamond_marksman_bracelet",
+            "output_amount": 1,
+            "category": "Smithing/diamond",
+            "xp": 0,
+            "time_seconds": 0
+        },
+        {
+            "input_items": {
+                "diamond_bar": 1,
+                "diamond_brute_symbol": 1
+            },
+            "output_item": "diamond_brute_bracelet",
+            "output_amount": 1,
+            "category": "Smithing/diamond",
+            "xp": 0,
+            "time_seconds": 0
+        },
+        {
+            "input_items": {
+                "diamond_bar": 1,
+                "diamond_sorcerer_symbol": 1
+            },
+            "output_item": "diamond_sorcerer_bracelet",
+            "output_amount": 1,
+            "category": "Smithing/diamond",
+            "xp": 0,
+            "time_seconds": 0
+        },
+        {
+            "input_items": {
+                "raw_piranha": 1
+            },
+            "output_item": "cooked_piranha",
+            "output_amount": 1,
+            "category": "Cooking/Fish",
+            "xp": 0,
+            "time_seconds": 3
+        },
+        {
+            "input_items": {
+                "raw_perch": 1
+            },
+            "output_item": "cooked_perch",
+            "output_amount": 1,
+            "category": "Cooking/Fish",
+            "xp": 0,
+            "time_seconds": 3.5
+        },
+        {
+            "input_items": {
+                "raw_mackerel": 1
+            },
+            "output_item": "cooked_mackerel",
+            "output_amount": 1,
+            "category": "Cooking/Fish",
+            "xp": 0,
+            "time_seconds": 4
+        },
+        {
+            "input_items": {
+                "raw_cod": 1
+            },
+            "output_item": "cooked_cod",
+            "output_amount": 1,
+            "category": "Cooking/Fish",
+            "xp": 0,
+            "time_seconds": 4.5
+        },
+        {
+            "input_items": {
+                "raw_trout": 1
+            },
+            "output_item": "cooked_trout",
+            "output_amount": 1,
+            "category": "Cooking/Fish",
+            "xp": 0,
+            "time_seconds": 5
+        },
+        {
+            "input_items": {
+                "raw_salmon": 1
+            },
+            "output_item": "cooked_salmon",
+            "output_amount": 1,
+            "category": "Cooking/Fish",
+            "xp": 0,
+            "time_seconds": 6
+        },
+        {
+            "input_items": {
+                "raw_carp": 1
+            },
+            "output_item": "cooked_carp",
+            "output_amount": 1,
+            "category": "Cooking/Fish",
+            "xp": 0,
+            "time_seconds": 7.5
+        },
+        {
+            "input_items": {
+                "raw_zander": 1
+            },
+            "output_item": "cooked_zander",
+            "output_amount": 1,
+            "category": "Cooking/Fish",
+            "xp": 0,
+            "time_seconds": 10
+        },
+        {
+            "input_items": {
+                "raw_pufferfish": 1
+            },
+            "output_item": "cooked_pufferfish",
+            "output_amount": 1,
+            "category": "Cooking/Fish",
+            "xp": 0,
+            "time_seconds": 12.5
+        },
+        {
+            "input_items": {
+                "raw_anglerfish": 1
+            },
+            "output_item": "cooked_anglerfish",
+            "output_amount": 1,
+            "category": "Cooking/Fish",
+            "xp": 0,
+            "time_seconds": 17.5
+        },
+        {
+            "input_items": {
+                "raw_tuna": 1
+            },
+            "output_item": "cooked_tuna",
+            "output_amount": 1,
+            "category": "Cooking/Fish",
+            "xp": 0,
+            "time_seconds": 26.5
+        },
+        {
+            "input_items": {
+                "bloodmoon_eel": 1
+            },
+            "output_item": "cooked_bloodmoon_eel",
+            "output_amount": 1,
+            "category": "Cooking/Fish",
+            "xp": 0,
+            "time_seconds": 65.6
+        },
+        {
+            "input_items": {
+                "raw_meat": 1
+            },
+            "output_item": "cooked_meat",
+            "output_amount": 1,
+            "category": "Cooking/Meat",
+            "xp": 0,
+            "time_seconds": 2.5
+        },
+        {
+            "input_items": {
+                "raw_giant_meat": 1
+            },
+            "output_item": "cooked_giant_meat",
+            "output_amount": 1,
+            "category": "Cooking/Meat",
+            "xp": 0,
+            "time_seconds": 4
+        },
+        {
+            "input_items": {
+                "raw_quality_meat": 1
+            },
+            "output_item": "cooked_quality_meat",
+            "output_amount": 1,
+            "category": "Cooking/Meat",
+            "xp": 0,
+            "time_seconds": 6
+        },
+        {
+            "input_items": {
+                "raw_superior_meat": 1
+            },
+            "output_item": "cooked_superior_meat",
+            "output_amount": 1,
+            "category": "Cooking/Meat",
+            "xp": 0,
+            "time_seconds": 10
+        },
+        {
+            "input_items": {
+                "potato": 3
+            },
+            "output_item": "potato_soup",
+            "output_amount": 1,
+            "category": "Cooking/Dishes",
+            "xp": 0,
+            "time_seconds": 2.5
+        },
+        {
+            "input_items": {
+                "cooked_meat": 2,
+                "onion": 1
+            },
+            "output_item": "meat_burger",
+            "output_amount": 1,
+            "category": "Cooking/Dishes",
+            "xp": 0,
+            "time_seconds": 4
+        },
+        {
+            "input_items": {
+                "cooked_cod": 2,
+                "potato": 3,
+                "onion": 1
+            },
+            "output_item": "cod_soup",
+            "output_amount": 1,
+            "category": "Cooking/Dishes",
+            "xp": 0,
+            "time_seconds": 5.5
+        },
+        {
+            "input_items": {
+                "blueberry": 10,
+                "magical_flax": 1
+            },
+            "output_item": "blueberry_pie",
+            "output_amount": 1,
+            "category": "Cooking/Dishes",
+            "xp": 0,
+            "time_seconds": 6
+        },
+        {
+            "input_items": {
+                "cooked_salmon": 2,
+                "potato": 2,
+                "onion": 1
+            },
+            "output_item": "salmon_salad",
+            "output_amount": 1,
+            "category": "Cooking/Dishes",
+            "xp": 0,
+            "time_seconds": 7
+        },
+        {
+            "input_items": {
+                "porcini": 5,
+                "potato": 4,
+                "onion": 2
+            },
+            "output_item": "porcini_soup",
+            "output_amount": 1,
+            "category": "Cooking/Dishes",
+            "xp": 0,
+            "time_seconds": 8
+        },
+        {
+            "input_items": {
+                "carrot": 4,
+                "potato": 2,
+                "cooked_quality_meat": 1
+            },
+            "output_item": "stew",
+            "output_amount": 1,
+            "category": "Cooking/Dishes",
+            "xp": 0,
+            "time_seconds": 9
+        },
+        {
+            "input_items": {
+                "cooked_zander": 3,
+                "cooked_pufferfish": 1,
+                "onion": 1,
+                "cooked_quality_meat": 2
+            },
+            "output_item": "power_pizza",
+            "output_amount": 1,
+            "category": "Cooking/Dishes",
+            "xp": 0,
+            "time_seconds": 10
+        },
+        {
+            "input_items": {
+                "leather": 2
+            },
+            "output_item": "leather_trousers",
+            "output_amount": 1,
+            "category": "Crafting/Leather Gear",
+            "xp": 0,
+            "time_seconds": 7.5
+        },
+        {
+            "input_items": {
+                "leather": 3
+            },
+            "output_item": "leather_coat",
+            "output_amount": 1,
+            "category": "Crafting/Leather Gear",
+            "xp": 0,
+            "time_seconds": 7.5
+        },
+        {
+            "input_items": {
+                "orange_leather": 2
+            },
+            "output_item": "orange_leather_trousers",
+            "output_amount": 1,
+            "category": "Crafting/Leather Gear",
+            "xp": 0,
+            "time_seconds": 7.5
+        },
+        {
+            "input_items": {
+                "orange_leather": 3
+            },
+            "output_item": "orange_leather_coat",
+            "output_amount": 1,
+            "category": "Crafting/Leather Gear",
+            "xp": 0,
+            "time_seconds": 7.5
+        },
+        {
+            "input_items": {
+                "green_leather": 2
+            },
+            "output_item": "green_leather_trousers",
+            "output_amount": 1,
+            "category": "Crafting/Leather Gear",
+            "xp": 0,
+            "time_seconds": 7.5
+        },
+        {
+            "input_items": {
+                "green_leather": 3
+            },
+            "output_item": "green_leather_coat",
+            "output_amount": 1,
+            "category": "Crafting/Leather Gear",
+            "xp": 0,
+            "time_seconds": 7.5
+        },
+        {
+            "input_items": {
+                "red_leather": 2
+            },
+            "output_item": "red_leather_trousers",
+            "output_amount": 1,
+            "category": "Crafting/Leather Gear",
+            "xp": 0,
+            "time_seconds": 7.5
+        },
+        {
+            "input_items": {
+                "red_leather": 3
+            },
+            "output_item": "red_leather_coat",
+            "output_amount": 1,
+            "category": "Crafting/Leather Gear",
+            "xp": 0,
+            "time_seconds": 7.5
+        },
+        {
+            "input_items": {
+                "black_leather": 2
+            },
+            "output_item": "black_leather_trousers",
+            "output_amount": 1,
+            "category": "Crafting/Leather Gear",
+            "xp": 0,
+            "time_seconds": 7.5
+        },
+        {
+            "input_items": {
+                "black_leather": 3
+            },
+            "output_item": "black_leather_coat",
+            "output_amount": 1,
+            "category": "Crafting/Leather Gear",
+            "xp": 0,
+            "time_seconds": 7.5
+        },
+        {
+            "input_items": {
+                "bronze_bar": 1,
+                "spruce_log": 1
+            },
+            "output_item": "bronze_arrow",
+            "output_amount": 10,
+            "category": "Crafting/Ammunition",
+            "xp": 0,
+            "time_seconds": 6
+        },
+        {
+            "input_items": {
+                "iron_bar": 1,
+                "pine_log": 1
+            },
+            "output_item": "iron_arrow",
+            "output_amount": 10,
+            "category": "Crafting/Ammunition",
+            "xp": 0,
+            "time_seconds": 6
+        },
+        {
+            "input_items": {
+                "steel_bar": 1,
+                "oak_log": 1
+            },
+            "output_item": "steel_arrow",
+            "output_amount": 10,
+            "category": "Crafting/Ammunition",
+            "xp": 0,
+            "time_seconds": 6
+        },
+        {
+            "input_items": {
+                "platinum_bar": 1,
+                "maple_log": 1
+            },
+            "output_item": "platinum_arrow",
+            "output_amount": 10,
+            "category": "Crafting/Ammunition",
+            "xp": 0,
+            "time_seconds": 6
+        },
+        {
+            "input_items": {
+                "meteorite_bar": 1,
+                "teak_log": 1
+            },
+            "output_item": "meteorite_arrow",
+            "output_amount": 10,
+            "category": "Crafting/Ammunition",
+            "xp": 0,
+            "time_seconds": 6
+        },
+        {
+            "input_items": {
+                "titanium_bar": 1,
+                "mahogany_log": 1
+            },
+            "output_item": "titanium_arrow",
+            "output_amount": 10,
+            "category": "Crafting/Ammunition",
+            "xp": 0,
+            "time_seconds": 6
+        },
+        {
+            "input_items": {
+                "astronomical_bar": 1,
+                "yew_log": 1
+            },
+            "output_item": "astronomical_arrow",
+            "output_amount": 1000,
+            "category": "Crafting/Ammunition",
+            "xp": 0,
+            "time_seconds": 6
+        },
+        {
+            "input_items": {
+                "magical_flax": 15
+            },
+            "output_item": "magical_robe",
+            "output_amount": 1,
+            "category": "Crafting/Fabric",
+            "xp": 0,
+            "time_seconds": 7.5
+        },
+        {
+            "input_items": {
+                "magical_flax": 10
+            },
+            "output_item": "magical_trousers",
+            "output_amount": 1,
+            "category": "Crafting/Fabric",
+            "xp": 0,
+            "time_seconds": 7.5
+        },
+        {
+            "input_items": {
+                "enchanted_flax": 15
+            },
+            "output_item": "enchanted_robe",
+            "output_amount": 1,
+            "category": "Crafting/Fabric",
+            "xp": 0,
+            "time_seconds": 7.5
+        },
+        {
+            "input_items": {
+                "enchanted_flax": 10
+            },
+            "output_item": "enchanted_trousers",
+            "output_amount": 1,
+            "category": "Crafting/Fabric",
+            "xp": 0,
+            "time_seconds": 7.5
+        },
+        {
+            "input_items": {
+                "cursed_flax": 15
+            },
+            "output_item": "cursed_robe",
+            "output_amount": 1,
+            "category": "Crafting/Fabric",
+            "xp": 0,
+            "time_seconds": 7.5
+        },
+        {
+            "input_items": {
+                "cursed_flax": 10
+            },
+            "output_item": "cursed_trousers",
+            "output_amount": 1,
+            "category": "Crafting/Fabric",
+            "xp": 0,
+            "time_seconds": 7.5
+        },
+        {
+            "input_items": {
+                "astronomical_flax": 6
+            },
+            "output_item": "astronomical_robe",
+            "output_amount": 1,
+            "category": "Crafting/Fabric",
+            "xp": 0,
+            "time_seconds": 7.5
+        },
+        {
+            "input_items": {
+                "astronomical_flax": 4
+            },
+            "output_item": "astronomical_trousers",
+            "output_amount": 1,
+            "category": "Crafting/Fabric",
+            "xp": 0,
+            "time_seconds": 7.5
+        },
+        {
+            "input_items": {
+                "basilisk_scale": 2,
+                "black_leather_trousers": 1
+            },
+            "output_item": "basilisk_scale_trousers",
+            "output_amount": 1,
+            "category": "Crafting/Leather Gear",
+            "xp": 0,
+            "time_seconds": 7.5
+        },
+        {
+            "input_items": {
+                "basilisk_scale": 3,
+                "black_leather_coat": 1
+            },
+            "output_item": "basilisk_scale_coat",
+            "output_amount": 1,
+            "category": "Crafting/Leather Gear",
+            "xp": 0,
+            "time_seconds": 7.5
+        },
+        {
+            "input_items": {
+                "astronomical_leather": 4
+            },
+            "output_item": "astronomical_leather_trousers",
+            "output_amount": 1,
+            "category": "Crafting/Leather Gear",
+            "xp": 0,
+            "time_seconds": 7.5
+        },
+        {
+            "input_items": {
+                "astronomical_leather": 6
+            },
+            "output_item": "astronomical_leather_coat",
+            "output_amount": 1,
+            "category": "Crafting/Leather Gear",
+            "xp": 0,
+            "time_seconds": 7.5
+        },
+        {
+            "input_items": {
+                "NONE": 1
+            },
+            "output_item": "copper_ore",
+            "output_amount": 1,
+            "category": "Mining",
+            "xp": 0,
+            "time_seconds": 3
+        },
+        {
+            "input_items": {
+                "NONE": 1
+            },
+            "output_item": "tin_ore",
+            "output_amount": 1,
+            "category": "Mining",
+            "xp": 0,
+            "time_seconds": 3
+        },
+        {
+            "input_items": {
+                "NONE": 1
+            },
+            "output_item": "iron_ore",
+            "output_amount": 1,
+            "category": "Mining",
+            "xp": 0,
+            "time_seconds": 4.5
+        },
+        {
+            "input_items": {
+                "NONE": 1
+            },
+            "output_item": "silver_ore",
+            "output_amount": 1,
+            "category": "Mining",
+            "xp": 0,
+            "time_seconds": 6
+        },
+        {
+            "input_items": {
+                "NONE": 1
+            },
+            "output_item": "coal_ore",
+            "output_amount": 1,
+            "category": "Mining",
+            "xp": 0,
+            "time_seconds": 7.5
+        },
+        {
+            "input_items": {
+                "NONE": 1
+            },
+            "output_item": "gold_ore",
+            "output_amount": 1,
+            "category": "Mining",
+            "xp": 0,
+            "time_seconds": 21
+        },
+        {
+            "input_items": {
+                "NONE": 1
+            },
+            "output_item": "platinum_ore",
+            "output_amount": 1,
+            "category": "Mining",
+            "xp": 0,
+            "time_seconds": 18
+        },
+        {
+            "input_items": {
+                "NONE": 1
+            },
+            "output_item": "meteorite_ore",
+            "output_amount": 1,
+            "category": "Mining",
+            "xp": 0,
+            "time_seconds": 26
+        },
+        {
+            "input_items": {
+                "NONE": 1
+            },
+            "output_item": "diamond_ore",
+            "output_amount": 1,
+            "category": "Mining",
+            "xp": 0,
+            "time_seconds": 29.5
+        },
+        {
+            "input_items": {
+                "NONE": 1
+            },
+            "output_item": "titanium_ore",
+            "output_amount": 1,
+            "category": "Mining",
+            "xp": 0,
+            "time_seconds": 35
+        },
+        {
+            "input_items": {
+                "NONE": 1
+            },
+            "output_item": "spruce_log",
+            "output_amount": 1,
+            "category": "Woodcutting",
+            "xp": 0,
+            "time_seconds": 3
+        },
+        {
+            "input_items": {
+                "NONE": 1
+            },
+            "output_item": "pine_log",
+            "output_amount": 1,
+            "category": "Woodcutting",
+            "xp": 0,
+            "time_seconds": 5
+        },
+        {
+            "input_items": {
+                "NONE": 1
+            },
+            "output_item": "oak_log",
+            "output_amount": 1,
+            "category": "Woodcutting",
+            "xp": 0,
+            "time_seconds": 6
+        },
+        {
+            "input_items": {
+                "NONE": 1
+            },
+            "output_item": "maple_log",
+            "output_amount": 1,
+            "category": "Woodcutting",
+            "xp": 0,
+            "time_seconds": 6.5
+        },
+        {
+            "input_items": {
+                "NONE": 1
+            },
+            "output_item": "teak_log",
+            "output_amount": 1,
+            "category": "Woodcutting",
+            "xp": 0,
+            "time_seconds": 8
+        },
+        {
+            "input_items": {
+                "NONE": 1
+            },
+            "output_item": "chestnut_log",
+            "output_amount": 1,
+            "category": "Woodcutting",
+            "xp": 0,
+            "time_seconds": 10
+        },
+        {
+            "input_items": {
+                "NONE": 1
+            },
+            "output_item": "mahogany_log",
+            "output_amount": 1,
+            "category": "Woodcutting",
+            "xp": 0,
+            "time_seconds": 12.5
+        },
+        {
+            "input_items": {
+                "NONE": 1
+            },
+            "output_item": "yew_log",
+            "output_amount": 1,
+            "category": "Woodcutting",
+            "xp": 0,
+            "time_seconds": 15
+        },
+        {
+            "input_items": {
+                "NONE": 1
+            },
+            "output_item": "redwood_log",
+            "output_amount": 1,
+            "category": "Woodcutting",
+            "xp": 0,
+            "time_seconds": 17.5
+        },
+        {
+            "input_items": {
+                "NONE": 1
+            },
+            "output_item": "magical_log",
+            "output_amount": 1,
+            "category": "Woodcutting",
+            "xp": 0,
+            "time_seconds": 20
+        },
+        {
+            "input_items": {
+                "NONE": 1
+            },
+            "output_item": "raw_piranha",
+            "output_amount": 1,
+            "category": "Fishing",
+            "xp": 0,
+            "time_seconds": 5.25
+        },
+        {
+            "input_items": {
+                "NONE": 1
+            },
+            "output_item": "raw_perch",
+            "output_amount": 1,
+            "category": "Fishing",
+            "xp": 0,
+            "time_seconds": 7.5
+        },
+        {
+            "input_items": {
+                "NONE": 1
+            },
+            "output_item": "raw_mackerel",
+            "output_amount": 1,
+            "category": "Fishing",
+            "xp": 0,
+            "time_seconds": 9
+        },
+        {
+            "input_items": {
+                "NONE": 1
+            },
+            "output_item": "raw_cod",
+            "output_amount": 1,
+            "category": "Fishing",
+            "xp": 0,
+            "time_seconds": 12
+        },
+        {
+            "input_items": {
+                "NONE": 1
+            },
+            "output_item": "raw_trout",
+            "output_amount": 1,
+            "category": "Fishing",
+            "xp": 0,
+            "time_seconds": 9
+        },
+        {
+            "input_items": {
+                "NONE": 1
+            },
+            "output_item": "raw_salmon",
+            "output_amount": 1,
+            "category": "Fishing",
+            "xp": 0,
+            "time_seconds": 13.5
+        },
+        {
+            "input_items": {
+                "NONE": 1
+            },
+            "output_item": "raw_carp",
+            "output_amount": 1,
+            "category": "Fishing",
+            "xp": 0,
+            "time_seconds": 9.5
+        },
+        {
+            "input_items": {
+                "NONE": 1
+            },
+            "output_item": "raw_zander",
+            "output_amount": 1,
+            "category": "Fishing",
+            "xp": 0,
+            "time_seconds": 15
+        },
+        {
+            "input_items": {
+                "NONE": 1
+            },
+            "output_item": "raw_pufferfish",
+            "output_amount": 1,
+            "category": "Fishing",
+            "xp": 0,
+            "time_seconds": 18.75
+        },
+        {
+            "input_items": {
+                "NONE": 1
+            },
+            "output_item": "raw_anglerfish",
+            "output_amount": 1,
+            "category": "Fishing",
+            "xp": 0,
+            "time_seconds": 30
+        },
+        {
+            "input_items": {
+                "NONE": 1
+            },
+            "output_item": "raw_tuna",
+            "output_amount": 1,
+            "category": "Fishing",
+            "xp": 0,
+            "time_seconds": 45
+        },
+        {
+            "input_items": {
+                "bloodmoon_worm": 1
+            },
+            "output_item": "bloodmoon_eel",
+            "output_amount": 1,
+            "category": "Fishing",
+            "xp": 0,
+            "time_seconds": 90
+        },
+        {
+            "input_items": {
+                "NONE": 1
+            },
+            "output_item": "nettle",
+            "output_amount": 1,
+            "category": "Foraging",
+            "xp": 0,
+            "time_seconds": 6
+        },
+        {
+            "input_items": {
+                "NONE": 1
+            },
+            "output_item": "kiwi",
+            "output_amount": 1,
+            "category": "Foraging",
+            "xp": 0,
+            "time_seconds": 7
+        },
+        {
+            "input_items": {
+                "NONE": 1
+            },
+            "output_item": "onion",
+            "output_amount": 1,
+            "category": "Foraging",
+            "xp": 0,
+            "time_seconds": 7.5
+        },
+        {
+            "input_items": {
+                "NONE": 1
+            },
+            "output_item": "magical_flax",
+            "output_amount": 1,
+            "category": "Foraging",
+            "xp": 0,
+            "time_seconds": 8
+        },
+        {
+            "input_items": {
+                "NONE": 1
+            },
+            "output_item": "blueberry",
+            "output_amount": 1,
+            "category": "Foraging",
+            "xp": 0,
+            "time_seconds": 8
+        },
+        {
+            "input_items": {
+                "NONE": 1
+            },
+            "output_item": "enchanted_flax",
+            "output_amount": 1,
+            "category": "Foraging",
+            "xp": 0,
+            "time_seconds": 8.5
+        },
+        {
+            "input_items": {
+                "NONE": 1
+            },
+            "output_item": "porcini",
+            "output_amount": 1,
+            "category": "Foraging",
+            "xp": 0,
+            "time_seconds": 9
+        },
+        {
+            "input_items": {
+                "NONE": 1
+            },
+            "output_item": "cursed_flax",
+            "output_amount": 1,
+            "category": "Foraging",
+            "xp": 0,
+            "time_seconds": 10
+        },
+        {
+            "input_items": {
+                "NONE": 1
+            },
+            "output_item": "seaweed",
+            "output_amount": 1,
+            "category": "Foraging",
+            "xp": 0,
+            "time_seconds": 12.5
+        },
+        {
+            "input_items": {
+                "tomato": 10,
+                "nettle": 5,
+                "pine_log": 2
+            },
+            "output_item": "potion_of_swiftness",
+            "output_amount": 1,
+            "category": "Brewing",
+            "xp": 0,
+            "time_seconds": 55
+        },
+        {
+            "input_items": {
+                "tomato": 10,
+                "magical_flax": 15,
+                "oak_log": 2
+            },
+            "output_item": "potion_of_negotiation",
+            "output_amount": 1,
+            "category": "Brewing",
+            "xp": 0,
+            "time_seconds": 65
+        },
+        {
+            "input_items": {
+                "cabbage": 15,
+                "enchanted_flax": 10,
+                "chestnut_log": 2
+            },
+            "output_item": "potion_of_resurrection",
+            "output_amount": 1,
+            "category": "Brewing",
+            "xp": 0,
+            "time_seconds": 72.5
+        },
+        {
+            "input_items": {
+                "strawberry": 10,
+                "enchanted_flax": 15,
+                "mahogany_log": 2
+            },
+            "output_item": "potion_of_forgery",
+            "output_amount": 1,
+            "category": "Brewing",
+            "xp": 0,
+            "time_seconds": 85
+        },
+        {
+            "input_items": {
+                "watermelon": 10,
+                "magical_flax": 15,
+                "teak_log": 2
+            },
+            "output_item": "potion_of_great_sight",
+            "output_amount": 1,
+            "category": "Brewing",
+            "xp": 0,
+            "time_seconds": 97.5
+        },
+        {
+            "input_items": {
+                "grapes": 10,
+                "porcini": 15,
+                "yew_log": 2
+            },
+            "output_item": "potion_of_trickery",
+            "output_amount": 1,
+            "category": "Brewing",
+            "xp": 0,
+            "time_seconds": 115
+        },
+        {
+            "input_items": {
+                "papaya": 10,
+                "cursed_flax": 15,
+                "redwood_log": 2
+            },
+            "output_item": "potion_of_dark_magic",
+            "output_amount": 1,
+            "category": "Brewing",
+            "xp": 0,
+            "time_seconds": 132.5
+        },
+        {
+            "input_items": {
+                "papaya": 15,
+                "seaweed": 20,
+                "magical_log": 2
+            },
+            "output_item": "potion_of_pure_power",
+            "output_amount": 1,
+            "category": "Brewing",
+            "xp": 0,
+            "time_seconds": 155
+        },
+        {
+            "input_items": {
+                "dragonfruit": 20,
+                "seaweed": 50,
+                "magical_log": 2
+            },
+            "output_item": "potion_of_ancient_knowledge",
+            "output_amount": 1,
+            "category": "Brewing",
+            "xp": 0,
+            "time_seconds": 180
+        },
+        {
+            "input_items": {
+                "spruce_log": 1
+            },
+            "output_item": "spruce_plank",
+            "output_amount": 1,
+            "category": "Carpentry",
+            "xp": 0,
+            "time_seconds": 9
+        },
+        {
+            "input_items": {
+                "pine_log": 1
+            },
+            "output_item": "pine_plank",
+            "output_amount": 1,
+            "category": "Carpentry",
+            "xp": 0,
+            "time_seconds": 9
+        },
+        {
+            "input_items": {
+                "oak_log": 1
+            },
+            "output_item": "oak_plank",
+            "output_amount": 1,
+            "category": "Carpentry",
+            "xp": 0,
+            "time_seconds": 9
+        },
+        {
+            "input_items": {
+                "maple_log": 1
+            },
+            "output_item": "maple_plank",
+            "output_amount": 1,
+            "category": "Carpentry",
+            "xp": 0,
+            "time_seconds": 9
+        },
+        {
+            "input_items": {
+                "teak_log": 1
+            },
+            "output_item": "teak_plank",
+            "output_amount": 1,
+            "category": "Carpentry",
+            "xp": 0,
+            "time_seconds": 9
+        },
+        {
+            "input_items": {
+                "chestnut_log": 1
+            },
+            "output_item": "chestnut_plank",
+            "output_amount": 1,
+            "category": "Carpentry",
+            "xp": 0,
+            "time_seconds": 9
+        },
+        {
+            "input_items": {
+                "mahogany_log": 1
+            },
+            "output_item": "mahogany_plank",
+            "output_amount": 1,
+            "category": "Carpentry",
+            "xp": 0,
+            "time_seconds": 9
+        },
+        {
+            "input_items": {
+                "yew_log": 1
+            },
+            "output_item": "yew_plank",
+            "output_amount": 1,
+            "category": "Carpentry",
+            "xp": 0,
+            "time_seconds": 9
+        },
+        {
+            "input_items": {
+                "redwood_log": 1
+            },
+            "output_item": "redwood_plank",
+            "output_amount": 1,
+            "category": "Carpentry",
+            "xp": 0,
+            "time_seconds": 12
+        },
+        {
+            "input_items": {
+                "magical_log": 1
+            },
+            "output_item": "magical_plank",
+            "output_amount": 1,
+            "category": "Carpentry",
+            "xp": 0,
+            "time_seconds": 15
+        },
+        {
+            "input_items": {
+                "potato_seed": 1
+            },
+            "output_item": "potato",
+            "output_amount": 5,
+            "category": "Farming",
+            "xp": 0,
+            "time_seconds": 30
+        },
+        {
+            "input_items": {
+                "carrot_seed": 1
+            },
+            "output_item": "carrot",
+            "output_amount": 5,
+            "category": "Farming",
+            "xp": 0,
+            "time_seconds": 40
+        },
+        {
+            "input_items": {
+                "tomato_seed": 1
+            },
+            "output_item": "tomato",
+            "output_amount": 5,
+            "category": "Farming",
+            "xp": 0,
+            "time_seconds": 60
+        },
+        {
+            "input_items": {
+                "cabbage_seed": 1
+            },
+            "output_item": "cabbage",
+            "output_amount": 5,
+            "category": "Farming",
+            "xp": 0,
+            "time_seconds": 60
+        },
+        {
+            "input_items": {
+                "strawberry_seed": 1
+            },
+            "output_item": "strawberry",
+            "output_amount": 5,
+            "category": "Farming",
+            "xp": 0,
+            "time_seconds": 90
+        },
+        {
+            "input_items": {
+                "watermelon_seed": 1
+            },
+            "output_item": "watermelon",
+            "output_amount": 5,
+            "category": "Farming",
+            "xp": 0,
+            "time_seconds": 120
+        },
+        {
+            "input_items": {
+                "grape_seed": 1
+            },
+            "output_item": "grapes",
+            "output_amount": 5,
+            "category": "Farming",
+            "xp": 0,
+            "time_seconds": 150
+        },
+        {
+            "input_items": {
+                "papaya_seed": 1
+            },
+            "output_item": "papaya",
+            "output_amount": 5,
+            "category": "Farming",
+            "xp": 0,
+            "time_seconds": 165
+        },
+        {
+            "input_items": {
+                "dragonfruit_seed": 1
+            },
+            "output_item": "dragonfruit",
+            "output_amount": 5,
+            "category": "Farming",
+            "xp": 0,
+            "time_seconds": 180
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+Raw data "manually" aquired through `https://query.idleclans.com/api-docs/index.html`, using API endpoint `https://query.idleclans.com/api/Configuration/game-data`
