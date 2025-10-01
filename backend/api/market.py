@@ -1,10 +1,12 @@
 import json
+import logging
 import time
 
 import requests
 from configuration import constants
 from datetime import datetime
 from backend.storage.storage_path_utils import get_cache_path
+logger = logging.getLogger(__name__)
 
 
 def is_cache_too_old(timestamp):
@@ -42,11 +44,11 @@ def _fetch_and_cache(url, cache_id, cache_path_prefix):
     response = requests.get(url)
 
     if response.status_code == 429:
-        print("Rate limit reached, waiting 3 minutes to ensure new slot")
+        logger.info("Rate limit reached, waiting 3 minutes to ensure new slot")
         time.sleep(60 * 3)
         return _fetch_and_cache(url, cache_id, cache_path_prefix)
 
-    print(response)
+    logger.debug(response)
     data = response.json()
     cache_data(cache_id, data, cache_path_prefix)
     return data

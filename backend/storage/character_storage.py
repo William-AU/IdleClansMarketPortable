@@ -1,16 +1,32 @@
 import json
+import logging
 import os
 from datetime import datetime
 from difflib import unified_diff
 
 from backend.api.character import get_raw_data_for_character
 from backend.storage.storage_path_utils import get_or_create_directory_for_player
+from backend.storage.character_storage_context import CharacterContext
+
+logger = logging.getLogger(__name__)
+
+
+def get_character_context(username):
+    fetch_and_store_data_for_player(username)
+    return CharacterContext(username)
 
 
 def fetch_and_store_data_for_player(username):
     """
     Fetch character data from API, save it to disk, and log changes.
     """
+
+    # Fetch new data
+    new_data = get_raw_data_for_character(username)
+    if new_data is None:
+        logger.error("NO DATA FOUND")
+        raise Exception("Character not found")
+
     character_path = get_or_create_directory_for_player(username)
     if not os.path.isfile(character_path + "original_data.json"):
         original_data_file = os.path.join(character_path, "original_data.json")
@@ -18,9 +34,6 @@ def fetch_and_store_data_for_player(username):
         original_data_file = None
     data_file = os.path.join(character_path, "raw_data.json")
     log_file = os.path.join(character_path, "raw_data.log")
-
-    # Fetch new data
-    new_data = get_raw_data_for_character(username)
 
     # Load old data if available
     old_data = None

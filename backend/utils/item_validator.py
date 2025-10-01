@@ -1,5 +1,7 @@
 import json
+import logging
 
+logger = logging.getLogger(__name__)
 
 def validate(item_name, path="../data/item_ids.json"):
     if item_name == "NONE":
@@ -27,4 +29,4 @@ def verify_ids():
             item_id = item["itemId"]
             verify = verify_id(name, item_id)
             if not verify:
-                print(f"Failed to verify ({name}, {item_id})")
+                logger.error(f"Failed to verify ({name}, {item_id})")
