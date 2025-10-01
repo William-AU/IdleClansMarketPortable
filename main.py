@@ -43,7 +43,9 @@ with st.form("character_form"):
 
     if submitted:
         if username.strip() == "":
-            st.error("Please enter a valid username.")
+            error_message = "Please enter a valid username."
+            st.error(error_message)
+            logger.error(f"Displaying streamlit error message {error_message}")
         else:
             try:
                 character_context = load_character(username)

@@ -51,6 +51,8 @@ Gets the directory used for storing session data
 
 
 def get_or_create_ajs_cache(ajs_id):
+    if ajs_id is None:
+        logger.warning("get_or_create_ajs_cache called with none ajs id, refusing")
     base_path = get_base_path()
     session_cache_path = base_path + "session_cache/"
     create_if_absent(session_cache_path)

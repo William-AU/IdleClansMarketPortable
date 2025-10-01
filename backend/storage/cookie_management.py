@@ -7,6 +7,9 @@ logger = logging.getLogger(__name__)
 
 
 def _get_all_cookies(ajs_id):
+    if ajs_id is None:
+        logger.warning("_get_all_cookies called with empty ajs id")
+        return None
     logger.debug("Getting all cookies")
     path = get_or_create_ajs_cache(ajs_id)
     logger.debug("Found AJS cache path")
@@ -26,6 +29,9 @@ def _get_all_cookies(ajs_id):
         return None
 
 def save_cookie(ajs_id, cookie, value):
+    if ajs_id is None:
+        logger.warning("save_cookie called with empty ajs id")
+        return
     logger.info(f"Saving cookie with ID: {ajs_id}, Cookie: {cookie}, Value: {value}")
     path = get_or_create_ajs_cache(ajs_id)
     logger.debug("Getting existing cookies")
@@ -39,7 +45,7 @@ def save_cookie(ajs_id, cookie, value):
             json.dump(existing_cookies, file)
         logger.debug("Success")
     except Exception as e:
-        logger.debug(f"Failed to save cookie with error {e}")
+        logger.error(f"Failed to save cookie with error {e}")
 
     logger.debug("Cookie saved successfully")
 
@@ -47,7 +53,21 @@ def save_cookie(ajs_id, cookie, value):
 Reads the value of a cookie, if the cookie is not found, return None
 """
 def read_cookie(ajs_id, cookie):
+    if ajs_id is None:
+        logger.warning("read_cookie called with empty ajs id")
+        return None
     existing_cookies = _get_all_cookies(ajs_id)
     if cookie not in existing_cookies:
         return None
     return existing_cookies[cookie]
+
+def clear_cookies(ajs_id):
+    if ajs_id is None:
+        logger.warning("clear_cookies called with empty ajs id")
+        return
+    logger.info(f"Clearing cookies for {ajs_id}")
+    path = get_or_create_ajs_cache(ajs_id)
+    try:
+        open(path + "cookies.json", 'w').close()
+    except Exception as e:
+        logger.error(f"Failed to clear cookies for: {ajs_id} with error: {e}")
