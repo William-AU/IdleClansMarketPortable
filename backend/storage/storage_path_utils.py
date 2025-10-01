@@ -1,5 +1,8 @@
+import logging
 import os
 import platform
+
+logger = logging.getLogger(__name__)
 
 """
 Looks for NAS storage if available, defaults to local storage otherwise
@@ -51,6 +54,7 @@ def get_or_create_ajs_cache(ajs_id):
     base_path = get_base_path()
     session_cache_path = base_path + "session_cache/"
     create_if_absent(session_cache_path)
+    logger.debug(f"Found cache path: {session_cache_path}, with ajs_id: {ajs_id}")
     ajs_id_path = session_cache_path + ajs_id + "/"
     create_if_absent(ajs_id_path)
     return ajs_id_path

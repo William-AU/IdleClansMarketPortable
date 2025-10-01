@@ -43,6 +43,11 @@ def save_cookie(ajs_id, cookie, value):
 
     logger.debug("Cookie saved successfully")
 
+"""
+Reads the value of a cookie, if the cookie is not found, return None
+"""
 def read_cookie(ajs_id, cookie):
     existing_cookies = _get_all_cookies(ajs_id)
+    if cookie not in existing_cookies:
+        return None
     return existing_cookies[cookie]
